@@ -29,7 +29,6 @@ public class CreditCardValidation {
             }
 
         }
-        System.out.println(ddsum);
 
         // Calculate remaining digits sum
         int rdsum = 0;
@@ -38,7 +37,6 @@ public class CreditCardValidation {
             int n = Character.getNumericValue(c);
             rdsum += n;
         }
-        System.out.println(rdsum);
 
 
         // Validate credit card
